@@ -11,4 +11,6 @@ Motion::Project::App.setup do |app|
     dependency 'cocos2d'
     dependency 'box2d'
   end
+
+  app.vendor_project('vendor/GBox2D', :static)
 end
